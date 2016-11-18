@@ -10,6 +10,7 @@ function superSsdp(options){
   this.disc = []
   this.service_location = options.url
   this.service_name = options.name
+  this.listenPort = options.listenPort
   this.SERVER = os.type() + "/" + os.release() + " UPnP/1.1 "+this.service_name+"/0.0.1";
   this.uuid = this.service_name
 }
