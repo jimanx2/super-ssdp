@@ -21,6 +21,6 @@
   "homepage": "https://github.com/guerrerocarlos/super-ssdp",
   "dependencies": {
     "ip": "^0.3.0",
-    "peer-ssdp": "0.0.2"
+    "peer-ssdp": "jimanx2/peer-ssdp"
   }
 }
